@@ -60,4 +60,7 @@ article div {
 }
 article a{
     color:purple;
+    background-color:black;
+    text-decoration:none;
+    border-radius:3px;
 }
