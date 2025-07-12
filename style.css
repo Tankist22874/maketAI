@@ -1,0 +1,63 @@
+header {
+    background-color: rgb(103, 78, 241);
+    height: 110px;
+
+}
+
+header h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    background-color: yellow;
+    border: 5px solid black;
+}
+
+main h1,
+p {
+    color: black;
+}
+
+
+footer {
+    background-color: gold;
+
+    border: 3px solid black;
+    margin-top: 50px;
+}
+
+footer h1 {
+    margin: 10px
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+section img {
+    width: 75%;}
+
+article {
+    padding: 15px;
+    color: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background: url("https://ybis.ru/wp-content/uploads/2023/09/kosmos-fon-39.webp");
+}
+
+article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+article a{
+    color:purple;
+}
